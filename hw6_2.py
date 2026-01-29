@@ -17,7 +17,7 @@ def main():
     myList.index("hello")
     myList.count(76) 
     myList.remove(76)
-    myList.index(True)   
+    myList.remove(True)   
 
     return myList
 
