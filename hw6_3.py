@@ -3,7 +3,10 @@
 
 def average(numlist):
     # Replace the pass statement with your code
-    pass
+    for num in numlist:
+        total = sum(numlist)
+        avg = total / len(numlist)
+    return avg
 
 if __name__ == "__main__":
     print(average([1, 2, 3, 4, 5]))  # 3.0

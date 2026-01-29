@@ -1,7 +1,16 @@
 def calculate_grade(score):
     # TODO: Implement logic to assign a grade based on the score
     # 90-100: A, 80- <90: B, 70- <80: C, 60- <70: D, 0- <60: F
-    pass # Replace pass with your code
+    if 90 <= score <= 100:
+        return 'A'
+    elif 80 <= score < 90:
+        return 'B'
+    elif 70 <= score < 80:
+        return 'C'
+    elif 60 <= score < 70:
+        return 'D'      
+    elif 0 <= score < 60:
+        return 'F'
 
 if __name__ == "__main__":
     # Test the function

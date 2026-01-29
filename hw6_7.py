@@ -2,7 +2,11 @@
 
 def sumEven(lst):
     # Replace the pass statement with your code
-    pass
+    total = 0
+    for number in lst: 
+        if number % 2 == 0:
+            total += number
+    return total
 
 if __name__ == "__main__":
     print(sumEven([1, 2, 3, 4, 5]))  # 6

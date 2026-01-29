@@ -3,7 +3,10 @@
 
 def sum_of_squares(lst):
     # Replace the pass statement with your code
-    pass
+    total = 0
+    for num in lst: 
+        total += num ** 2
+    return total
 
 if __name__ == "__main__":
     print(sum_of_squares([2, 3, 4]))  # 29

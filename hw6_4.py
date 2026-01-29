@@ -4,7 +4,11 @@
 
 def findmax(lst):
     # Replace the pass statement with your code
-    pass
+    max_value = lst[0]
+    for num in lst:
+        if num > max_value:
+            max_value = num
+    return max_value
 
 if __name__ == "__main__":
     # Home-built findmax function

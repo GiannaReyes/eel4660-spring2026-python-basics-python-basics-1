@@ -3,7 +3,11 @@
 
 def countOdd(lst):
     # Replace the pass statement with your code
-    pass
+    count = 0
+    for number in lst: 
+        if number % 2 != 0:
+            count += 1
+    return count
 
 if __name__ == "__main__":
     print(countOdd([1, 2, 3, 4, 5]))  # 3
