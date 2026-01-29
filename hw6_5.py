@@ -4,8 +4,8 @@
 def sum_of_squares(lst):
     # Replace the pass statement with your code
     total = 0
-    for num in lst: 
-        total += num ** 2
+    for number in lst: 
+        total += number ** 2
     return total
 
 if __name__ == "__main__":
